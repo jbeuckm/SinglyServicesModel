@@ -1,3 +1,3 @@
-## Singly Services List ##
+# Singly Services List ##
 
-A test app to load the list of Singly services and display them with icons in a table.
+A custom Alloy syncAdapter and Model loads and displays the list of Singly services with icons in a table.
