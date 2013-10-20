@@ -1,0 +1,13 @@
+<Alloy>
+
+	<TableViewRow id="row">
+
+		<ImageView id="serviceIcon" image="{icon_48}"/>
+
+		<Label id="serviceName" text="{name}"/>
+
+		<Label id="serviceDescription" text="{description}"/>
+
+	</TableViewRow>				
+
+</Alloy>

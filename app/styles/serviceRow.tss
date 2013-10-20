@@ -1,0 +1,23 @@
+"#serviceIcon": {
+	width: 48,
+	height: 48,
+	left: 0
+}
+"#serviceName": {
+	left: 52,
+	top: '-1',
+	font: {
+		fontSize: 22,
+		fontWeight: "bold"
+	}
+}
+"#serviceDescription": {
+	left: 52,
+	top: 25,
+	font: {
+		fontSize: 10
+	}
+}
+"TableViewRow": {
+	height: 52
+}

@@ -1,0 +1,2471 @@
+{
+	"37signals": {
+		"name": "37signals",
+		"desc": "Authentication only",
+		"key": "Client ID",
+		"secret": "Client Secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/37signals.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/37signals.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/37signals.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/37signals.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/37signals.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/37signals.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/37signals.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/37signals.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/37signals.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"bodymedia": {
+		"name": "BodyMedia",
+		"desc": "Indexes the steps, calories, and sleep from an armband.",
+		"key": "Key",
+		"secret": "Shared Secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/bodymedia.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/bodymedia.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/bodymedia.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/bodymedia.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/bodymedia.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/bodymedia.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/bodymedia.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/bodymedia.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/bodymedia.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "steps_hour",
+				"frequency": 86400,
+				"class": "personal"
+			}, {
+				"name": "burn_year",
+				"frequency": 86400,
+				"class": "personal"
+			}, {
+				"name": "burn_day",
+				"frequency": 43200,
+				"class": "personal"
+			}, {
+				"name": "sleep_year",
+				"frequency": 86400,
+				"class": "personal"
+			}, {
+				"name": "sleep_day",
+				"frequency": 43200,
+				"class": "personal"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"dropbox": {
+		"name": "Dropbox",
+		"desc": "Connect to your Dropbox account",
+		"key": "Client ID",
+		"secret": "Client secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/dropbox.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/dropbox.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/dropbox.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/dropbox.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/dropbox.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/dropbox.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/dropbox.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/dropbox.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/dropbox.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "files",
+				"frequency": 86400,
+				"class": "personal",
+				"aka": "folders"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"dwolla": {
+		"name": "Dwolla",
+		"desc": "Only provides authentication with and the basic profile for any Dwolla account.",
+		"key": "Key",
+		"secret": "Secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/dwolla.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/dwolla.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/dwolla.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/dwolla.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/dwolla.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/dwolla.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/dwolla.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/dwolla.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/dwolla.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"evernote": {
+		"name": "Evernote Account",
+		"desc": "Provides authentication",
+		"key": "Client ID",
+		"secret": "Client secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/evernote.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/evernote.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/evernote.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/evernote.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/evernote.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/evernote.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/evernote.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/evernote.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/evernote.png"
+			}
+		],
+		"synclets": [],
+		"hasTestKeys": false
+	},
+	"facebook": {
+		"name": "Facebook",
+		"desc": "Syncs data for photos, wall, news feed, and friends.",
+		"key": "App ID",
+		"secret": "App Secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/facebook.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/facebook.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/facebook.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/facebook.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/facebook.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/facebook.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/facebook.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/facebook.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/facebook.png"
+			}
+		],
+		"sandbox": true,
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "feed",
+				"frequency": 3600,
+				"class": "personal",
+				"aka": "feed_self feed_others"
+			}, {
+				"name": "checkins",
+				"frequency": 1800,
+				"class": "personal"
+			}, {
+				"name": "friends",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "home",
+				"frequency": 600,
+				"class": "social",
+				"aka": "home_photos"
+			}, {
+				"name": "home_update",
+				"frequency": 7000,
+				"class": "social"
+			}, {
+				"name": "photos",
+				"frequency": 86400,
+				"class": "personal",
+				"aka": "albums"
+			}, {
+				"name": "page_likes",
+				"frequency": 86400,
+				"class": "personal"
+			}, {
+				"name": "stream_likes",
+				"frequency": 86400,
+				"class": "personal"
+			}, {
+				"name": "url_likes",
+				"frequency": 86400,
+				"class": "personal"
+			}, {
+				"name": "pages",
+				"frequency": 86400,
+				"class": "personal"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"fitbit": {
+		"name": "Fitbit",
+		"desc": "Syncs devices, activity, sleep and weight/bodyfat",
+		"key": "Consumer key",
+		"secret": "Consumer secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/fitbit.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/fitbit.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/fitbit.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/fitbit.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/fitbit.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/fitbit.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/fitbit.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/fitbit.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/fitbit.png"
+			}
+		],
+		"sandbox": true,
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "activities",
+				"frequency": 7200,
+				"class": "personal"
+			}, {
+				"name": "devices",
+				"frequency": 86400,
+				"class": "personal"
+			}, {
+				"name": "fat",
+				"frequency": 7200,
+				"class": "personal"
+			}, {
+				"name": "sleep",
+				"frequency": 7200,
+				"class": "personal"
+			}, {
+				"name": "weight",
+				"frequency": 86400,
+				"class": "personal"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"flickr": {
+		"name": "Flickr",
+		"desc": "Syncs photos",
+		"key": "Key",
+		"secret": "Secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/flickr.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/flickr.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/flickr.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/flickr.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/flickr.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/flickr.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/flickr.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/flickr.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/flickr.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "photos",
+				"frequency": 3600,
+				"class": "personal"
+			}, {
+				"name": "contacts",
+				"frequency": 86400,
+				"class": "personal"
+			}, {
+				"name": "photos_feed",
+				"frequency": 3600,
+				"class": "social"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"foursquare": {
+		"name": "foursquare",
+		"desc": "Syncs checkins, photos, and friends checkins",
+		"key": "Client ID",
+		"secret": "Client Secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/foursquare.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/foursquare.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/foursquare.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/foursquare.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/foursquare.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/foursquare.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/foursquare.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/foursquare.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/foursquare.png"
+			}
+		],
+		"sandbox": true,
+		"synclets": [
+			{
+				"frequency": 86400,
+				"name": "self",
+				"class": "core"
+			}, {
+				"frequency": 86400,
+				"name": "friends",
+				"class": "core"
+			}, {
+				"frequency": 600,
+				"name": "checkins",
+				"class": "personal"
+			}, {
+				"frequency": 300,
+				"name": "recent",
+				"max": 3600,
+				"class": "social"
+			}, {
+				"frequency": 43200,
+				"name": "photos",
+				"class": "personal"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"gcal": {
+		"name": "Google Calendar",
+		"desc": "Access to Google Calendar, sync's the calendar list",
+		"key": "Client ID",
+		"secret": "Client secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/gcal.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/gcal.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/gcal.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/gcal.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/gcal.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/gcal.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/gcal.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/gcal.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/gcal.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "calendars",
+				"frequency": 86400,
+				"class": "personal"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"gcontacts": {
+		"name": "Google Contacts",
+		"desc": "Syncs contacts from any Google account",
+		"key": "Client ID",
+		"secret": "Client secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/gcontacts.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/gcontacts.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/gcontacts.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/gcontacts.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/gcontacts.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/gcontacts.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/gcontacts.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/gcontacts.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/gcontacts.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 1700,
+				"class": "core",
+				"note": "frequency has to be < 30min to keep access token alive for media fetches for now, see map.js TODO"
+			}, {
+				"name": "contacts",
+				"frequency": 86400,
+				"class": "core"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"gdocs": {
+		"name": "Google Documents",
+		"desc": "Access to Google Docs, sync's the change feed",
+		"key": "Client ID",
+		"secret": "Client secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/google.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/google.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/google.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/google.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/google.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/google.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/google.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/google.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/google.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "changes",
+				"frequency": 3600,
+				"class": "personal"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"github": {
+		"name": "GitHub",
+		"desc": "Syncs friends, followers, issues, repo summary, received and generated events",
+		"key": "Client ID",
+		"secret": "Secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/github.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/github.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/github.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/github.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/github.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/github.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/github.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/github.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/github.png"
+			}
+		],
+		"synclets": [
+			{
+				"frequency": 86400,
+				"name": "self",
+				"class": "core"
+			}, {
+				"frequency": 86400,
+				"name": "users",
+				"class": "core"
+			}, {
+				"frequency": 3600,
+				"name": "issues",
+				"class": "personal"
+			}, {
+				"frequency": 86400,
+				"name": "repos",
+				"class": "personal"
+			}, {
+				"frequency": 3600,
+				"name": "received",
+				"class": "social"
+			}, {
+				"frequency": 3600,
+				"name": "events",
+				"class": "social"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"gmail": {
+		"name": "Gmail",
+		"desc": "Syncs photos, contacts, and links.",
+		"key": "Client ID",
+		"secret": "Client secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/gmail.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/gmail.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/gmail.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/gmail.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/gmail.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/gmail.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/gmail.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/gmail.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/gmail.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 3600,
+				"class": "core"
+			}, {
+				"name": "headers",
+				"frequency": 3600,
+				"class": "core"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"google": {
+		"name": "Google Account",
+		"desc": "Only provides authentication with and the basic profile for any Google account.",
+		"key": "Client ID",
+		"secret": "Client secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/google.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/google.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/google.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/google.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/google.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/google.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/google.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/google.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/google.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 9999999,
+				"class": "core"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"gplus": {
+		"name": "Google Plus",
+		"desc": "Authentication only",
+		"key": "Client ID",
+		"secret": "Client Secret",
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "activities",
+				"frequency": 86400,
+				"class": "personal"
+			}
+		],
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/google.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/google.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/google.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/google.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/google.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/google.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/google.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/google.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/google.png"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"imgur": {
+		"name": "imgur",
+		"desc": "Authentication only",
+		"key": "App ID",
+		"secret": "App secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/imgur.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/imgur.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/imgur.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/imgur.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/imgur.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/imgur.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/imgur.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/imgur.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/imgur.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}
+		],
+		"hasTestKeys": false
+	},
+	"instagram": {
+		"name": "Instagram",
+		"desc": "Syncs photos, photo feed, and friends.",
+		"key": "CLIENT ID",
+		"secret": "CLIENT SECRET",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/instagram.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/instagram.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/instagram.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/instagram.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/instagram.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/instagram.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/instagram.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/instagram.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/instagram.png"
+			}
+		],
+		"sandbox": true,
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "feed",
+				"frequency": 600,
+				"class": "social"
+			}, {
+				"name": "follows",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "updated",
+				"frequency": 4200,
+				"class": "personal"
+			}, {
+				"name": "media",
+				"frequency": 3600,
+				"class": "personal"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"klout": {
+		"name": "Klout",
+		"desc": "Connect any Klout profile",
+		"key": "OAuth API Key",
+		"secret": "Shared Secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/klout.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/klout.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/klout.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/klout.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/klout.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/klout.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/klout.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/klout.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/klout.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "influence",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "topics",
+				"frequency": 86400,
+				"class": "core"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"linkedin": {
+		"name": "LinkedIn",
+		"desc": "Syncs connections, shares, and the network updates news feed.",
+		"key": "API Key",
+		"secret": "Secret Key",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/linkedin.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/linkedin.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/linkedin.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/linkedin.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/linkedin.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/linkedin.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/linkedin.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/linkedin.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/linkedin.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "updates",
+				"frequency": 3600,
+				"class": "personal"
+			}, {
+				"name": "network",
+				"frequency": 3600,
+				"class": "core"
+			}, {
+				"name": "connections",
+				"frequency": 86400,
+				"class": "core",
+				"freshInstead": "network"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"meetup": {
+		"name": "Meetup",
+		"desc": "Get Meetup data",
+		"key": "Key",
+		"secret": "Secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/meetup.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/meetup.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/meetup.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/meetup.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/meetup.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/meetup.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/meetup.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/meetup.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/meetup.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "checkins",
+				"frequency": 3600,
+				"class": "personal"
+			}, {
+				"name": "groups",
+				"frequency": 3600,
+				"class": "personal"
+			}, {
+				"name": "photos",
+				"frequency": 3600,
+				"class": "personal"
+			}, {
+				"name": "events",
+				"frequency": 3600,
+				"class": "personal"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"moves": {
+		"name": "Moves App",
+		"desc": "Only provides authentication",
+		"key": "Client ID",
+		"secret": "Client secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/moves.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/moves.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/moves.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/moves.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/moves.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/moves.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/moves.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/moves.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/moves.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 9999999,
+				"class": "core"
+			}
+		],
+		"hasTestKeys": false
+	},
+	"paypal": {
+		"name": "PayPal",
+		"desc": "Authentication only",
+		"key": "App ID",
+		"secret": "App secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/paypal.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/paypal.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/paypal.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/paypal.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/paypal.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/paypal.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/paypal.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/paypal.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/paypal.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}
+		],
+		"hasTestKeys": false
+	},
+	"picasa": {
+		"name": "Google Picasa",
+		"desc": "Authenticate a Picasa User",
+		"key": "Client ID",
+		"secret": "Client secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/picasa.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/picasa.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/picasa.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/picasa.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/picasa.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/picasa.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/picasa.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/picasa.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/picasa.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "photos",
+				"frequency": 86400,
+				"class": "personal",
+				"aka": "albums"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"rdio": {
+		"name": "Rdio",
+		"desc": "Syncs following, collection, and activity.",
+		"key": "Key",
+		"secret": "Shared Secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/rdio.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/rdio.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/rdio.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/rdio.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/rdio.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/rdio.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/rdio.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/rdio.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/rdio.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "following",
+				"frequency": 600,
+				"class": "core"
+			}, {
+				"name": "collection",
+				"frequency": 3600,
+				"class": "personal"
+			}, {
+				"name": "activity",
+				"frequency": 3600,
+				"class": "personal"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"reddit": {
+		"name": "reddit",
+		"desc": "Authentication only",
+		"key": "App ID",
+		"secret": "App secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/reddit.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/reddit.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/reddit.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/reddit.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/reddit.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/reddit.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/reddit.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/reddit.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/reddit.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}
+		],
+		"hasTestKeys": false
+	},
+	"runkeeper": {
+		"name": "RunKeeper Health Graph",
+		"desc": "Connect to RunKeeper activities and devices",
+		"key": "Client ID",
+		"secret": "Client secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/runkeeper.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/runkeeper.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/runkeeper.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/runkeeper.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/runkeeper.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/runkeeper.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/runkeeper.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/runkeeper.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/runkeeper.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "fitness_activities",
+				"frequency": 3600,
+				"class": "personal"
+			}, {
+				"name": "strength_activities",
+				"frequency": 3600,
+				"class": "personal"
+			}, {
+				"name": "background_activities",
+				"frequency": 3600,
+				"class": "personal"
+			}, {
+				"name": "records",
+				"frequency": 86400,
+				"class": "personal"
+			}, {
+				"name": "street_team",
+				"frequency": 86400,
+				"class": "core"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"shutterfly": {
+		"name": "Shutterfly",
+		"desc": "Authentication only",
+		"key": "Application Id",
+		"secret": "Shared Secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/shutterfly.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/shutterfly.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/shutterfly.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/shutterfly.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/shutterfly.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/shutterfly.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/shutterfly.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/shutterfly.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/shutterfly.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "photos",
+				"frequency": 86400,
+				"class": "personal"
+			}, {
+				"name": "albums",
+				"frequency": 86400,
+				"class": "personal"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"smugmug": {
+		"name": "SmugMug",
+		"desc": "Provides authentication, proxy, photos and albums for SmugMug accounts.",
+		"key": "Client ID",
+		"secret": "Client secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/smugmug.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/smugmug.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/smugmug.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/smugmug.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/smugmug.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/smugmug.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/smugmug.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/smugmug.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/smugmug.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "photos",
+				"frequency": 86400,
+				"class": "personal"
+			}
+		],
+		"hasTestKeys": false
+	},
+	"soundcloud": {
+		"name": "SoundCloud",
+		"desc": "Syncs the user's profile.",
+		"key": "Client ID",
+		"secret": "Client Secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/soundcloud.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/soundcloud.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/soundcloud.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/soundcloud.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/soundcloud.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/soundcloud.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/soundcloud.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/soundcloud.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/soundcloud.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"stocktwits": {
+		"name": "StockTwits",
+		"desc": "Connect to and authenticate with any StockTwits profile",
+		"key": "Consumer key",
+		"secret": "Consumer secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/stocktwits.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/stocktwits.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/stocktwits.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/stocktwits.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/stocktwits.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/stocktwits.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/stocktwits.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/stocktwits.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/stocktwits.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "users",
+				"frequency": 86400,
+				"class": "core",
+				"aka": "following followers"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"tout": {
+		"name": "Tout",
+		"desc": "Syncs the user's profile and videos.",
+		"key": "API Key",
+		"secret": "Secret Key",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/tout.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/tout.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/tout.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/tout.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/tout.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/tout.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/tout.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/tout.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/tout.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"tumblr": {
+		"name": "Tumblr",
+		"desc": "Syncs blogs followed, dashboard, and all posts.",
+		"key": "OAuth Consumer Key",
+		"secret": "Secret Key",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/tumblr.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/tumblr.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/tumblr.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/tumblr.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/tumblr.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/tumblr.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/tumblr.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/tumblr.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/tumblr.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "following",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "dashboard",
+				"frequency": 600,
+				"class": "social"
+			}, {
+				"name": "posts",
+				"frequency": 1200,
+				"class": "personal"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"twitter": {
+		"name": "Twitter",
+		"desc": "Syncs tweets, mentions, timeline, friends, and followers (up to 1k of them).",
+		"key": "Consumer Key",
+		"secret": "Consumer Secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/twitter.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/twitter.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/twitter.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/twitter.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/twitter.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/twitter.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/twitter.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/twitter.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/twitter.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "friends",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "followers",
+				"frequency": 21600,
+				"class": "core"
+			}, {
+				"name": "favorites",
+				"frequency": 600,
+				"class": "personal"
+			}, {
+				"name": "tweets",
+				"frequency": 600,
+				"class": "personal"
+			}, {
+				"name": "timeline",
+				"frequency": 120,
+				"class": "social"
+			}, {
+				"name": "mentions",
+				"frequency": 600,
+				"class": "social"
+			}, {
+				"name": "received_messages",
+				"frequency": 600,
+				"class": "personal",
+				"aka": "direct_messages"
+			}, {
+				"name": "sent_messages",
+				"frequency": 600,
+				"class": "personal",
+				"aka": "direct_messages"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"withings": {
+		"name": "Withings",
+		"desc": "Withings",
+		"key": "Client ID",
+		"secret": "Client secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/withings.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/withings.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/withings.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/withings.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/withings.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/withings.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/withings.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/withings.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/withings.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "measures",
+				"frequency": 43200,
+				"class": "personal"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"wordpress": {
+		"name": "WordPress.com",
+		"desc": "Connect to your activity and blogs on WordPress.com",
+		"key": "Client ID",
+		"secret": "Client Secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/wordpress.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/wordpress.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/wordpress.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/wordpress.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/wordpress.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/wordpress.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/wordpress.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/wordpress.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/wordpress.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "posts",
+				"frequency": 3600,
+				"class": "personal"
+			}, {
+				"name": "feed",
+				"frequency": 3600,
+				"class": "social"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"yahoo": {
+		"name": "Yahoo Account",
+		"desc": "Provides authentication, proxy and the basic profile for any Yahoo account.",
+		"key": "Client ID",
+		"secret": "Client secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/yahoo.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/yahoo.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/yahoo.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/yahoo.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/yahoo.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/yahoo.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/yahoo.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/yahoo.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/yahoo.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}
+		],
+		"hasTestKeys": false
+	},
+	"yammer": {
+		"name": "Yammer",
+		"desc": "Sync messages, users, and groups",
+		"key": "Client ID",
+		"secret": "Client secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/yammer.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/yammer.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/yammer.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/yammer.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/yammer.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/yammer.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/yammer.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/yammer.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/yammer.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "messages",
+				"frequency": 600,
+				"class": "social"
+			}, {
+				"name": "users",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "groups",
+				"frequency": 86400,
+				"class": "core"
+			}
+		],
+		"hasTestKeys": false
+	},
+	"youtube": {
+		"name": "YouTube",
+		"desc": "Basic authentication to any YouTube user",
+		"key": "Client ID",
+		"secret": "Client secret",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/youtube.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/youtube.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/youtube.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/youtube.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/youtube.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/youtube.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/youtube.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/youtube.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/youtube.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "uploads",
+				"frequency": 86400,
+				"class": "personal"
+			}
+		],
+		"hasTestKeys": true
+	},
+	"zeo": {
+		"name": "zeo",
+		"desc": "Syncs and archives average zqscore and historic sleep stats",
+		"key": "API Key",
+		"secret": "Secret Key",
+		"icons": [
+			{
+				"height": 16,
+				"width": 16,
+				"source": "http://assets.singly.com/service-icons/16px/zeo.png"
+			}, {
+				"height": 24,
+				"width": 24,
+				"source": "http://assets.singly.com/service-icons/24px/zeo.png"
+			}, {
+				"height": 32,
+				"width": 32,
+				"source": "http://assets.singly.com/service-icons/32px/zeo.png"
+			}, {
+				"height": 48,
+				"width": 48,
+				"source": "http://assets.singly.com/service-icons/48px/zeo.png"
+			}, {
+				"height": 64,
+				"width": 64,
+				"source": "http://assets.singly.com/service-icons/64px/zeo.png"
+			}, {
+				"height": 128,
+				"width": 128,
+				"source": "http://assets.singly.com/service-icons/128px/zeo.png"
+			}, {
+				"height": 256,
+				"width": 256,
+				"source": "http://assets.singly.com/service-icons/256px/zeo.png"
+			}, {
+				"height": 512,
+				"width": 512,
+				"source": "http://assets.singly.com/service-icons/512px/zeo.png"
+			}, {
+				"height": 1024,
+				"width": 1024,
+				"source": "http://assets.singly.com/service-icons/1024px/zeo.png"
+			}
+		],
+		"synclets": [
+			{
+				"name": "self",
+				"frequency": 86400,
+				"class": "core"
+			}, {
+				"name": "sleep_stats",
+				"frequency": 7200,
+				"class": "personal"
+			}, {
+				"name": "sleep_records",
+				"frequency": 7200,
+				"class": "personal"
+			}, {
+				"name": "zq_scores",
+				"frequency": 7200,
+				"class": "personal"
+			}
+		],
+		"hasTestKeys": true
+	}
+}

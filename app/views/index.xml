@@ -1,0 +1,13 @@
+<Alloy>
+	
+	<Collection src="SinglyService"/>
+	
+	<Window class="container">
+
+		<TableView dataCollection="SinglyService">
+			<Require src="serviceRow"/>
+			
+		</TableView>
+
+	</Window>
+</Alloy>
